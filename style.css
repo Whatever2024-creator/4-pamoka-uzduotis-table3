@@ -1,0 +1,37 @@
+table {
+    border: 3px solid black;
+    width: 1000px;
+    border-collapse: collapse;
+    font-family: sen;
+    margin-bottom: 50px;
+}
+
+th, td {
+    border:  3px solid black;
+    padding: 20px;
+    text-align: left;
+}
+
+.oranzine {
+    background: orange;
+    color: white;
+    font-weight: bold;
+}
+
+.melyna {
+    background: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.zalia {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+table:first-of-type {
+    background: white;
+    font-weight: bold;
+    color: black;
+}
